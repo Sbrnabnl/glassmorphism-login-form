@@ -1,0 +1,80 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 10px;
+	font-family: 'Montserrat', sans-serif;
+}
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(/d_glass-morphism_card_1080p_4x.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container form{
+    height: 500px;
+    width: 350px;
+    background: rgba(255,255,255, 0.06);
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0, 0.2);
+    border-top: 1px solid rgba(255,255,255, 0.3);
+    border-left: 1px solid rgba(255,255,255, 0.3);
+    backdrop-filter: blur(7px);
+    transform-style: preserve-3d;
+}
+form p
+{
+    font-weight: 600;
+    color: #fff;
+    opacity: 0.7;
+    font-size: 3rem;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 4px rgba(0,0,0, 0.2);
+}
+form p span{
+    color: pink;
+}
+form a
+{
+    text-decoration: none;
+    color: #ddd;
+    font-size: 17px;
+    padding: 50px 10px;
+    
+}
+
+form input
+{
+    background: transparent;
+    width: 80%;
+    padding: 1.5em;
+    margin-bottom: 2em;
+    border: none;
+    border-left: 1px solid rgba(255,255,255, 0.3);
+    border-top: 1px solid rgba(255,255,255, 0.3);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    box-shadow: 4px 4px 60px rgba(0,0,0, 0.2);
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    text-shadow: 2px 2px 4px rgba(0,0,0, 0.2);
+    border-radius: 5000px;
+
+}
+form input.btn{
+    background: linear-gradient(90deg, deeppink, blueviolet);
+    cursor: pointer;
+}
+
